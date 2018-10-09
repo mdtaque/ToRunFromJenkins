@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="8771" started-at="2018-10-09T05:20:09Z" finished-at="2018-10-09T05:20:18Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="8771" started-at="2018-10-09T05:20:09Z" finished-at="2018-10-09T05:20:18Z">
+      <class name="TestHome.TestHomePage">
+        <test-method status="PASS" signature="SetUpDriver()[pri:0, instance:TestHome.TestHomePage@3dd3bcd]" name="SetUpDriver" is-config="true" duration-ms="1361" started-at="2018-10-09T05:20:09Z" finished-at="2018-10-09T05:20:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpDriver -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:TestHome.TestHomePage@3dd3bcd]" name="initialization" is-config="true" duration-ms="20" started-at="2018-10-09T05:20:10Z" finished-at="2018-10-09T05:20:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:TestHome.TestHomePage@3dd3bcd]" name="test1" duration-ms="1778" started-at="2018-10-09T05:20:10Z" finished-at="2018-10-09T05:20:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:TestHome.TestHomePage@3dd3bcd]" name="cleanup" is-config="true" duration-ms="5594" started-at="2018-10-09T05:20:12Z" finished-at="2018-10-09T05:20:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- TestHome.TestHomePage -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -12,10 +12,10 @@ public class HomePage extends CommonAPI {
     @FindBy(id = "gh-cat-box")
     WebElement categories;
 
-//    public void goToLoginPage() {
-//        bellButton.click();
-//        clickOnSignIn.click();
-//    }
+    public void goToLoginPage() {
+        bellButton.click();
+        clickOnSignIn.click();
+    }
 
     public void click(){
         categories.click();

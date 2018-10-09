@@ -14,11 +14,11 @@ public class TestHomePage extends CommonAPI {
     public void initialization(){
         objOfHomePage = PageFactory.initElements(CommonAPI.driver, HomePage.class);
     }
-    //@Test
-//    public void search(){
-//        driver.get("https://www.ebay.com/");
-//        objOfHomePage.goToLoginPage();
-//    }
+    @Test
+    public void search(){
+        driver.get("https://www.ebay.com/");
+        objOfHomePage.goToLoginPage();
+    }
 
     @Test
     public void test1(){
