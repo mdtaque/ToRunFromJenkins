@@ -2,7 +2,7 @@ package ReadingTableData;
 
 import Base.CommonAPI;
 import org.openqa.selenium.By;
-
+import org.testng.Assert;
 
 public class ReadDataFromTable extends CommonAPI {
 
@@ -15,5 +15,9 @@ public class ReadDataFromTable extends CommonAPI {
 //        }
         System.out.println(cellData);
         return cellData;
+    }
+    public void failed(){
+        String data = null;
+        Assert.assertEquals(data, "65");
     }
 }

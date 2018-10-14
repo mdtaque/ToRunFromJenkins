@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestTableDataRead.TableDataReadTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.914 s - in TestTableDataRead.TableDataReadTest
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 12.146 s <<< FAILURE! - in TestTableDataRead.TableDataReadTest
+failedTest(TestTableDataRead.TableDataReadTest)  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.AssertionError: expected [65] but found [null]
+	at TestTableDataRead.TableDataReadTest.failedTest(TableDataReadTest.java:18)
+

@@ -13,4 +13,8 @@ public class TableDataReadTest extends ReadDataFromTable {
         readTable();
         Assert.assertEquals("Mataderos 2312",readTable());
     }
+    @Test
+    public void failedTest(){
+        failed();
+    }
 }

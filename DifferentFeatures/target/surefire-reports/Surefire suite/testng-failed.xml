@@ -5,9 +5,9 @@
     <classes>
       <class name="TestTableDataRead.TableDataReadTest">
         <methods>
+          <include name="failedTest"/>
           <include name="SetUpDriver"/>
           <include name="cleanup"/>
-          <include name="tableRead"/>
         </methods>
       </class> <!-- TestTableDataRead.TableDataReadTest -->
     </classes>
