@@ -2,40 +2,40 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="9092" started-at="2018-10-09T06:04:01Z" finished-at="2018-10-09T06:04:10Z">
+  <suite name="Surefire suite" duration-ms="9785" started-at="2018-10-14T02:41:51Z" finished-at="2018-10-14T02:42:01Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="9092" started-at="2018-10-09T06:04:01Z" finished-at="2018-10-09T06:04:10Z">
+    <test name="Surefire test" duration-ms="9785" started-at="2018-10-14T02:41:51Z" finished-at="2018-10-14T02:42:01Z">
       <class name="TestHome.TestHomePage">
-        <test-method status="PASS" signature="SetUpDriver()[pri:0, instance:TestHome.TestHomePage@12843fce]" name="SetUpDriver" is-config="true" duration-ms="1184" started-at="2018-10-09T06:04:01Z" finished-at="2018-10-09T06:04:02Z">
+        <test-method status="PASS" signature="SetUpDriver()[pri:0, instance:TestHome.TestHomePage@12843fce]" name="SetUpDriver" is-config="true" duration-ms="1229" started-at="2018-10-14T02:41:51Z" finished-at="2018-10-14T02:41:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpDriver -->
-        <test-method status="PASS" signature="initialization()[pri:0, instance:TestHome.TestHomePage@12843fce]" name="initialization" is-config="true" duration-ms="20" started-at="2018-10-09T06:04:02Z" finished-at="2018-10-09T06:04:02Z">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:TestHome.TestHomePage@12843fce]" name="initialization" is-config="true" duration-ms="16" started-at="2018-10-14T02:41:53Z" finished-at="2018-10-14T02:41:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="PASS" signature="search()[pri:0, instance:TestHome.TestHomePage@12843fce]" name="search" duration-ms="3238" started-at="2018-10-09T06:04:02Z" finished-at="2018-10-09T06:04:05Z">
+        <test-method status="PASS" signature="search()[pri:0, instance:TestHome.TestHomePage@12843fce]" name="search" duration-ms="3767" started-at="2018-10-14T02:41:53Z" finished-at="2018-10-14T02:41:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search -->
-        <test-method status="PASS" signature="cleanup()[pri:0, instance:TestHome.TestHomePage@12843fce]" name="cleanup" is-config="true" duration-ms="147" started-at="2018-10-09T06:04:05Z" finished-at="2018-10-09T06:04:05Z">
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:TestHome.TestHomePage@12843fce]" name="cleanup" is-config="true" duration-ms="112" started-at="2018-10-14T02:41:56Z" finished-at="2018-10-14T02:41:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanup -->
-        <test-method status="PASS" signature="SetUpDriver()[pri:0, instance:TestHome.TestHomePage@12843fce]" name="SetUpDriver" is-config="true" duration-ms="703" started-at="2018-10-09T06:04:05Z" finished-at="2018-10-09T06:04:06Z">
+        <test-method status="PASS" signature="SetUpDriver()[pri:0, instance:TestHome.TestHomePage@12843fce]" name="SetUpDriver" is-config="true" duration-ms="759" started-at="2018-10-14T02:41:56Z" finished-at="2018-10-14T02:41:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpDriver -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:TestHome.TestHomePage@12843fce]" name="test1" duration-ms="1551" started-at="2018-10-09T06:04:06Z" finished-at="2018-10-09T06:04:08Z">
+        <test-method status="PASS" signature="test1()[pri:0, instance:TestHome.TestHomePage@12843fce]" name="test1" duration-ms="1524" started-at="2018-10-14T02:41:57Z" finished-at="2018-10-14T02:41:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="initialization()[pri:0, instance:TestHome.TestHomePage@12843fce]" name="initialization" is-config="true" duration-ms="0" started-at="2018-10-09T06:04:06Z" finished-at="2018-10-09T06:04:06Z">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:TestHome.TestHomePage@12843fce]" name="initialization" is-config="true" duration-ms="0" started-at="2018-10-14T02:41:57Z" finished-at="2018-10-14T02:41:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="PASS" signature="cleanup()[pri:0, instance:TestHome.TestHomePage@12843fce]" name="cleanup" is-config="true" duration-ms="2232" started-at="2018-10-09T06:04:08Z" finished-at="2018-10-09T06:04:10Z">
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:TestHome.TestHomePage@12843fce]" name="cleanup" is-config="true" duration-ms="2362" started-at="2018-10-14T02:41:59Z" finished-at="2018-10-14T02:42:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanup -->

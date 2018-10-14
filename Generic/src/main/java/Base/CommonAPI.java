@@ -1,5 +1,6 @@
 package Base;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
@@ -25,5 +26,13 @@ public class CommonAPI {
     public void cleanup() {
         driver.close();
     }
-
+    public String getTextByCss(String locator) {
+        String st = driver.findElement(By.cssSelector(locator)).getText();
+        return st;
+    }
+    public void switchWindow(WebDriver driver) {
+        for (String handle : driver.getWindowHandles()) {
+            driver.switchTo().window(handle);
+        }
+    }
 }
